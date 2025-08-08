@@ -77,8 +77,6 @@ def save_inputed_data(data):
     with open("Inputted_progression_data.txt","a") as file:
         file.write(data+ "\n")
 
-
-
 # Print all valid results inside this created file.
 def display_inputed_data():
     try:
